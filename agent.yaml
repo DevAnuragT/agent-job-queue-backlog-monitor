@@ -1,0 +1,11 @@
+spec_version: "0.1.0"
+name: job-queue-backlog-monitor
+version: 0.1.0
+description: "Checks queue backlog, oldest-job age, and dead-letter volume against declared operating limits."
+skills:
+  - job-queue-backlog-monitor-skill
+tools:
+  - audit-job-queue-backlog-monitor
+tags:
+  - reliability-engineering
+  - evidence-driven
